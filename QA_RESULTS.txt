@@ -1,0 +1,20 @@
+MAGDAY production fix QA — 2026-07-17
+API contract: PASS
+Registration/login/session/order/root flow: PASS
+Customer denied root API: PASS
+Root sees and updates order: PASS
+Mobile 390x844: PASS
+Favorites add/remove/list: PASS
+15 information pages: PASS
+80 local ASCII WebP product assets: PASS
+Product details/reviews/nutrition/availability: PASS
+Catalog-only data/db.json: PASS
+MariaDB unix socket branch: PASS (configuration/static check)
+All 7 schema tables use utf8mb4_unicode_ci: PASS
+Node syntax checks: PASS
+ZIP integrity: PASS
+Unified 1180px landing grid at 1440px viewport: PASS
+Equal left/right landing gutters (130px): PASS
+Header content gutters aligned to landing (130px/130px): PASS
+Footer content aligned to landing: PASS
+Responsive gutter override at <=900px: PASS

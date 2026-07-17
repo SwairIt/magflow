@@ -1,0 +1,15 @@
+{
+  "name": "magday-production-v5",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check src/backend/app.mjs && node --check src/backend/json-store.mjs && node --check src/backend/mariadb-store.mjs",
+    "test": "node tests/production/root-order-flow.mjs",
+    "test:ui": "node tests/production/root-ui.mjs"
+  },
+  "dependencies": { "mysql2": "^3.14.1" },
+  "engines": { "node": ">=20" }
+}
